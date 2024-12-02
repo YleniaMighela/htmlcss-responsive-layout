@@ -142,10 +142,13 @@ footer ul{
         display: inline-block;
     }
     
+    .container-preparation{
+        width:100%;
+    }
+    
 
-    #list-info li{
+    #list-info{
         display: flex;
-        justify-content: center;
         flex-wrap: wrap;
     }
     
@@ -164,8 +167,10 @@ footer ul{
     }
     
     /*regole main  */
-    .big-container{
-        display:flex;
+  
+    #list-info{
+        display: block;
+        
     }
     
     
