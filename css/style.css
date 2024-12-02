@@ -99,6 +99,21 @@ i{
    padding:10px;
 }
 
+/* section banner */
+#banner{
+    display: none;
+    max-width: 100%;
+    margin:30px;
+   
+ 
+}
+
+#banner img{
+    width:100%;
+}
+
+
+
 
 /* regole footer */
 
@@ -175,6 +190,13 @@ footer ul{
         border-radius: 9999px; 
         padding:10px;
     } 
+
+    /* section banner */
+    #banner{
+        display: flex;
+        justify-content: center;
+
+    }
 }
 
 
