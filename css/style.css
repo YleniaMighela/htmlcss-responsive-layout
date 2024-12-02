@@ -77,9 +77,13 @@ img{
     width:30%;
 }
 
+h5{
+    margin:10px 40px;
+}
+
 #list-info li {
-    font-size:15px;
-    line-height: 20px;
+    font-size:10px;
+    line-height: 10px;
     padding:10px;
     list-style: none;
 }
@@ -90,29 +94,55 @@ img{
     justify-content: space-around;
     list-style: none;
 }
+
+/* sezione icona */
+.fa-facebook{
+    color:#1a77f3;
+}
+
+.fa-twitter{
+color:#009eff;
+}
+
+.fa-instagram{
+    color:#dc3d78;
+}
+
+.fa-pinterest{
+    color:#e62222;
+}
+
+.fa-youtube{
+    color:#e62222;
+}
+
+
 .media{
     display:none;
+    color:black;
+    padding:5px;
 }
 
 i{
-    font-size: 10px;
+    
     border-radius:50%;
     background-color: white;
-    padding:10px;
+    padding:15px;
 }
 
 /* section banner */
 #banner{
     display: none;
     max-width: 100%;
-    margin:30px;
-    
+    margin:30px;  
     
 }
 
 #banner img{
     width:100%;
 }
+
+
 
 /*  section presentation */
 
@@ -136,6 +166,8 @@ h3{
     text-align: left;
     margin:10px 10px;
 }
+
+
 
 /* regole footer */
 
@@ -165,7 +197,9 @@ footer ul{
     
 }
 
-
+.column{
+    padding:10px;
+}
 
 
 
@@ -194,16 +228,19 @@ footer ul{
     .container-preparation{
         width:100%;
     }
-    
-    
+
+    /* sezione lista  */
     #list-info{
         display: flex;
         flex-wrap: wrap;
+        gap:20px;
+        padding:20px 30px;
     }
     
     /* sezione social */
     .media{
         display:none;
+        border-radius: 100%;
     }
     
     
@@ -213,6 +250,8 @@ footer ul{
         padding:10px;
     } 
     
+
+
     /* section banner */
     #banner{
         display: flex;
@@ -263,6 +302,7 @@ footer ul{
     /* regole social */
     .media{
         display:inline-block;
+        font-size: 10px;
     }
     
     /* regole section presentation */
