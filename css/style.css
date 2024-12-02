@@ -29,7 +29,34 @@ body{
 }
 
 
+/* regole footer */
 
+footer{
+    width:100%;
+    background-color: #7c69a4;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    padding: 30px 20px;
+    /* DEBUG */
+    /* height:80px; */
+}
+
+footer a{
+    color: white;
+    margin:10px;
+    text-align: center;
+}
+
+ footer ul{
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    
+   
+}
 
 
 
@@ -57,4 +84,12 @@ body{
 
 @media screen and (min-width:992px) {
     
+    .row{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .column{
+        text-align: left;
+    }
 }
