@@ -3,3 +3,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* mobile first */
+
+/* regole header */
+
+header{
+    width: 100%;
+    height:70px;
+    padding:10px;
+    text-align: center;
+    background-color:white;
+}
+
+h1{
+    color:#ff9614;
+    font-size: 30px; 
+    font-family: "Nerko One",cursive;
+}
+
+/* regole main contenuto principale */
+
+body{
+    background-color: #f6f5f3;
+}
+
+
+
+
+
+
+
+
+
+                 /* RESPONSIVE */
+
+/* layout tablet */
+@media screen and (min-width:768px) {
+
+    /* regole header */
+
+    h1{
+        text-align: left;
+        padding:0 10px;
+    }
+    
+}
+
+
+
+
+/* layout desktop */
+
+@media screen and (min-width:992px) {
+    
+}
